@@ -39,34 +39,24 @@ formatter.step({
   "name": "user is on homepage",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_Login_page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinition.title_of_the_page_is_Informatica_MDM_Data_Director()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinition.enter_username_and_password()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_click_on_login_button()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_homepage()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 });
